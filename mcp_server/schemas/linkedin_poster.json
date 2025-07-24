@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LinkedInPostTool",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string",
+      "description": "The text to be posted on LinkedIn"
+    }
+  },
+  "required": ["content"]
+}
