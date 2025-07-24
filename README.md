@@ -4,7 +4,6 @@
 This project is a powerful and modular AI agent system that generates and posts professional LinkedIn content using OpenAI and LangChain, built with a clean **MCP** architecture.
 It takes an input idea from the user, transforms it into a high-quality LinkedIn post using a custom prompt template, and posts it directly to the user's LinkedIn profile using LinkedIn’s API.
 
-
 ## 🚀 Features
 
 - ✨ Human-style LinkedIn post generation with strict tone and structure guidelines
@@ -13,7 +12,6 @@ It takes an input idea from the user, transforms it into a high-quality LinkedIn
 - 🔧 Built-in LinkedIn posting tool via LinkedIn REST API
 - 🖥️ Streamlit frontend for clean user interaction
 - 🔄 FastAPI backend for MCP logic orchestration
-
 
 ## 📦 Tech Stack
 
@@ -29,8 +27,7 @@ It takes an input idea from the user, transforms it into a high-quality LinkedIn
 ```
 /project-root/
 ├── streamlit_app/
-│ └── app.py
-│
+│   └── app.py
 ├── mcp_server/ 
 │   ├── main.py 
 │   ├── agent_runner.py 
@@ -42,15 +39,13 @@ It takes an input idea from the user, transforms it into a high-quality LinkedIn
 │       └── linkedin_poster.py 
 ├── .env 
 ├── requirements.txt 
-└── README.md # 
+└── README.md
 ```
 
 ## 📸 Screenshots
 
 ![Index](static/Index1.png)
 ![Index](static/Index2.png)
-
-
 
 ## Author
 
